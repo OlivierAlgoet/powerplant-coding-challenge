@@ -22,3 +22,26 @@ conda activate gemchallenge
 pip install -r requirements.txt
 python GEMChallenge.py
 ```
+
+## ALGORITHM EXPLANATION
+
+At first I wanted to solve the challenge using the classical optimization algorithms:
+
+- CEM (Cross entropy method)
+- Linear programming (With integer part for windturbine)
+- Particle swarm optimization (With bounded particles)
+- ...
+
+Without the Pmin constraint for the gasfired plant the challenge is not difficult since we can simply follow the merit order.
+I chose to solve the problem by using a forward pass following the merit order and backward pass to account for Pmin constraints
+I define a Pmin constraint as a forward pass with loadleft< Pmin of gasfired plant
+
+When this happens there are 2 options:
+
+- Don't use the gasfired turbine P=0
+- Make sure to use the gasfired turbine P≠0 by freeing energy from the previous plants (Backward pass)
+
+similarly for the backward pass we have 2 options when a gasfired (Pmin) constraint presents itself:
+
+- Assign P as 0 --> Deactivate the plant
+- Assign P as Pmin --> Take all excess power from the plant
