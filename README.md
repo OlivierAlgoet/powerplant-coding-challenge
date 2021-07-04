@@ -36,7 +36,8 @@ At first I wanted to solve the challenge using the classical optimization algori
 ### Forward pass
 
 Without the Pmin constraint for the gasfired plant the challenge is not difficult since we can simply follow the merit order.
-I chose to solve the problem by using a forward pass following the merit order and backward pass to account for Pmin constraints
+I chose to solve the problem by using a forward pass following the merit order and backward pass to account for Pmin constraints.
+
 I define a Pmin constraint as a forward pass with loadleft< Pmin of the gasfired plant
 
 When this happens there are 2 options:
