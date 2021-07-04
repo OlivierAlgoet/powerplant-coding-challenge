@@ -1,0 +1,1201 @@
+Testing example_payloads/payload3.json
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 264}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 294}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 294}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing for different kinds of loads
+Testing example_payloads/payload3.json with load 0
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 10
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 10}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 20
+No solution found!
+Testing example_payloads/payload3.json with load 30
+No solution found!
+Testing example_payloads/payload3.json with load 40
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 4}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 50
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 50}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 60
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 60}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 70
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 70}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 80
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 44}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 90
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 54}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 100
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 64}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 110
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 74}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 120
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 120}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 130
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 130}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 140
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 104}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 150
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 160
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 10}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 170
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 134}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 180
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 144}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 190
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 4}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 200
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 50}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 210
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 60}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 220
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 70}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 230
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 44}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 240
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 54}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 250
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 64}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 260
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 74}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 270
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 120}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 280
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 130}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 290
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 104}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 300
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 114}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 310
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 124}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 320
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 134}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 330
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 144}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 340
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 154}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 350
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 164}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 360
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 174}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 370
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 184}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 380
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 194}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 390
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 204}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 400
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 214}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 410
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 224}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 420
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 234}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 430
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 244}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 440
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 254}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 450
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 264}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 460
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 274}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 470
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 284}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 480
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 294}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 490
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 304}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 500
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 314}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 510
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 324}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 520
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 334}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 530
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 344}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 540
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 354}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 550
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 364}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 560
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 374}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 570
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 384}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 580
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 394}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 590
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 404}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 600
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 414}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 610
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 424}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 620
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 434}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 630
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 444}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 640
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 454}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 650
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 364}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 660
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 374}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 670
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 384}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 680
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 394}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 690
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 404}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 700
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 414}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 710
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 424}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 720
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 434}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 730
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 444}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 740
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 454}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 750
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 104}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 760
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 114}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 770
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 124}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 780
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 134}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 790
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 144}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 800
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 154}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 810
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 164}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 820
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 174}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 830
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 184}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 840
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 194}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 850
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 204}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 860
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 214}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 870
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 224}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 880
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 234}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 890
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 244}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 900
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 254}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 910
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 264}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 920
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 274}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 930
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 284}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 940
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 294}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 950
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 304}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 960
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 314}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 970
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 324}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 980
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 334}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 990
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 344}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1000
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 354}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1010
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 364}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1020
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 374}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1030
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 384}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1040
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 394}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1050
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 404}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1060
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 414}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1070
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 424}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1080
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 434}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1090
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 444}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1100
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 454}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1110
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 424}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1120
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 434}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1130
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 444}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1140
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 454}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1150
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 44}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1160
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 54}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1170
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 64}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1180
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 74}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1190
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 84}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1200
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 94}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1210
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 104}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1220
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 114}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1230
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 124}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1240
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 134}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1250
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 144}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1260
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 154}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1270
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 164}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1280
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 174}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1290
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 184}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1300
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 194}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1310
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 204}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload3.json with load 1320
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 210}, {"name": "tj1", "p": 4}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 0
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 10
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 10}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 20
+No solution found!
+Testing example_payloads/payload2.json with load 30
+No solution found!
+Testing example_payloads/payload2.json with load 40
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 4}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 50
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 50}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 60
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 60}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 70
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 70}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 80
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 44}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 90
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 54}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 100
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 64}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 110
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 74}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 120
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 120}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 130
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 130}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 140
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 104}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 150
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 160
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 10}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 170
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 134}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 180
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 144}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 190
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 4}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 200
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 50}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 210
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 60}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 220
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 70}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 230
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 44}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 240
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 54}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 250
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 64}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 260
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 74}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 270
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 120}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 280
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 130}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 290
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 104}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 300
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 114}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 310
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 124}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 320
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 134}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 330
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 144}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 340
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 154}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 350
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 164}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 360
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 174}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 370
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 184}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 380
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 194}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 390
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 204}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 400
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 214}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 410
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 224}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 420
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 234}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 430
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 244}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 440
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 254}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 450
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 264}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 460
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 274}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 470
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 284}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 480
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 294}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 490
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 304}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 500
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 314}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 510
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 324}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 520
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 334}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 530
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 344}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 540
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 354}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 550
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 364}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 560
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 374}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 570
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 384}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 580
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 394}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 590
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 404}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 600
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 414}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 610
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 424}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 620
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 434}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 630
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 444}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 640
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 454}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 650
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 364}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 660
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 374}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 670
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 384}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 680
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 394}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 690
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 404}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 700
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 414}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 710
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 424}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 720
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 434}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 730
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 444}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 740
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 454}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 750
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 104}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 760
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 114}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 770
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 124}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 780
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 134}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 790
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 144}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 800
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 154}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 810
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 164}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 820
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 174}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 830
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 184}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 840
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 194}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 850
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 204}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 860
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 214}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 870
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 224}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 880
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 234}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 890
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 244}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 900
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 254}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 910
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 264}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 920
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 274}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 930
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 284}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 940
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 294}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 950
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 304}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 960
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 314}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 970
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 324}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 980
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 334}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 990
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 344}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1000
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 354}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1010
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 364}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1020
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 374}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1030
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 384}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1040
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 394}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1050
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 404}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1060
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 414}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1070
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 424}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1080
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 434}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1090
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 444}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1100
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 454}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1110
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 424}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1120
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 434}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1130
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 444}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1140
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 454}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1150
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 44}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1160
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 54}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1170
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 64}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1180
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 74}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1190
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 84}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1200
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 94}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1210
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 104}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1220
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 114}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1230
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 124}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1240
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 134}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1250
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 144}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1260
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 154}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1270
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 164}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1280
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 174}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1290
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 184}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1300
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 194}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1310
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 204}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload2.json with load 1320
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 210}, {"name": "tj1", "p": 4}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 0
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 10
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 10}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 20
+No solution found!
+Testing example_payloads/payload1.json with load 30
+No solution found!
+Testing example_payloads/payload1.json with load 40
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 4}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 50
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 50}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 60
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 60}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 70
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 70}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 80
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 44}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 90
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 54}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 100
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 64}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 110
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 74}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 120
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 120}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 130
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 130}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 140
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 104}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 150
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 160
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 10}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 170
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 134}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 180
+[{"name": "windpark1", "p": 0}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 144}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 190
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 4}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 200
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 50}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 210
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 60}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 220
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 70}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 230
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 44}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 240
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 54}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 250
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 64}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 260
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 0}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 74}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 270
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 120}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 280
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 0}, {"name": "gasfiredbig1", "p": 130}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 290
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 104}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 300
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 114}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 310
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 124}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 320
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 134}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 330
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 144}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 340
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 154}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 350
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 164}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 360
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 174}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 370
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 184}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 380
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 194}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 390
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 204}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 400
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 214}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 410
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 224}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 420
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 234}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 430
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 244}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 440
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 254}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 450
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 264}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 460
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 274}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 470
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 284}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 480
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 294}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 490
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 304}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 500
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 314}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 510
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 324}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 520
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 334}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 530
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 344}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 540
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 354}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 550
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 364}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 560
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 374}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 570
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 384}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 580
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 394}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 590
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 404}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 600
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 414}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 610
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 424}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 620
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 434}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 630
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 444}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 640
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 454}, {"name": "gasfiredbig2", "p": 0}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 650
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 364}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 660
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 374}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 670
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 384}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 680
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 394}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 690
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 404}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 700
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 414}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 710
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 424}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 720
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 434}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 730
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 444}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 740
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 454}, {"name": "gasfiredbig2", "p": 100}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 750
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 104}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 760
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 114}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 770
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 124}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 780
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 134}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 790
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 144}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 800
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 154}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 810
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 164}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 820
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 174}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 830
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 184}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 840
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 194}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 850
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 204}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 860
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 214}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 870
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 224}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 880
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 234}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 890
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 244}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 900
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 254}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 910
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 264}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 920
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 274}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 930
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 284}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 940
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 294}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 950
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 304}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 960
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 314}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 970
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 324}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 980
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 334}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 990
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 344}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1000
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 354}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1010
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 364}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1020
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 374}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1030
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 384}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1040
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 394}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1050
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 404}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1060
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 414}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1070
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 424}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1080
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 434}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1090
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 444}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1100
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 454}, {"name": "gasfiredsomewhatsmaller", "p": 0}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1110
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 424}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1120
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 434}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1130
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 444}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1140
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 454}, {"name": "gasfiredsomewhatsmaller", "p": 40}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1150
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 44}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1160
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 54}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1170
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 64}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1180
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 74}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1190
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 84}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1200
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 94}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1210
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 104}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1220
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 114}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1230
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 124}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1240
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 134}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1250
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 144}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1260
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 154}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1270
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 164}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1280
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 174}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1290
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 184}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1300
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 194}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1310
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 204}, {"name": "tj1", "p": 0}]
+Solution correct: The desired load equals the delivered load!
+Testing example_payloads/payload1.json with load 1320
+[{"name": "windpark1", "p": 150}, {"name": "windpark2", "p": 36}, {"name": "gasfiredbig1", "p": 460}, {"name": "gasfiredbig2", "p": 460}, {"name": "gasfiredsomewhatsmaller", "p": 210}, {"name": "tj1", "p": 4}]
+Solution correct: The desired load equals the delivered load!
