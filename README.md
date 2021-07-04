@@ -13,6 +13,7 @@ Hello! I am Olivier Algoet, a control & automation engineer with a passion for a
 ## API LAUNCH
 
 I used a conda environment
+
 Clone the github repo
 ```shell
 cd powerplant-coding-challenge
