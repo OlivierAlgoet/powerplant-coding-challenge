@@ -45,3 +45,13 @@ similarly for the backward pass we have 2 options when a gasfired (Pmin) constra
 
 - Assign P as 0 --> Deactivate the plant
 - Assign P as Pmin --> Take all excess power from the plant
+
+## UNIT TEST
+
+A small unittest program is also written which reads the example json and changes the load from 0 to sum(Plants)
+The results of this program are written in unit_test_results.txt with Correct/ Wrong or no solution found
+```shell
+cd powerplant-coding-challenge
+conda activate gemchallenge
+python unittest.py
+```
