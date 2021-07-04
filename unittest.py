@@ -35,7 +35,7 @@ def ConclusionWriter(file,LoadJson, RespJson):
 # Testing example loads
 for load in LoadList:
     loadfile=os.path.join(LoadDir,load)
-    with open(loadfile,"r") as f:
+    with open(loadfile,"rb") as f:
         loadJson=json.load(f)
     resp=requests.post(URL,json=loadJson)
     JsonResp=resp.json()
@@ -48,7 +48,7 @@ for load in LoadList:
 textfile.write("Testing for different kinds of loads\n")
 for load in LoadList:
     loadfile=os.path.join(LoadDir,load)
-    with open(loadfile,"r") as f:
+    with open(loadfile,"rb") as f:
         loadJson=json.load(f)
     MaxLoad=0
     for item in loadJson["powerplants"]:

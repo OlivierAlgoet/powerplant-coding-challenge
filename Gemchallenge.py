@@ -244,7 +244,7 @@ class UnitCommitmentProblem:
                 NewProposal[i]=0
             return self._backtracking(MeritOrder,NewProposal,LoadNeeded,i-1)
                     
-    def _forwardtracking(self,MeritOrder,load,CurrentProposal=[],cost=0):
+    def _forwardtracking(self,MeritOrder,load,CurrentProposal,cost):
         """
         _forwardtracking is a recursive function whichs assigns power to the 
         powerplants in the merit order.
@@ -362,34 +362,3 @@ def GEMChallenge():
 
 if __name__ == '__main__':
     app.run(port=8888, debug=False)   
-
-       
-    
-"""        
-import time
-
-
-for i in range(400):
-    with open("load.json","r") as f:
-        payload=json.load(f)
-    payload["load"]=i*10
-    
-    prep=UnitCommitmentProblem(payload)
-    merit_order=prep.compute_merit_order()
-    print(merit_order)
-    
-    load=prep.load 
-    out=_forwardtracking(merit_order,load,[],0)
-    start=time.time()
-
-    if out!=None:
-        print("The solution is:",out, "the load is: ",payload["load"]," The total sum is ",sum(out["solution"]))
-    else:
-        print("out is None")
-
-    print("total time is",time.time()-start)
-    input()
-"""   
-       
-        
-    
