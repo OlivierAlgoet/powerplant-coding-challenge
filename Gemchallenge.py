@@ -10,14 +10,18 @@ Created on Sat Jul  3 20:34:42 2021
 """
 
 #imports
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify,abort
 import json
 import sys
-
+import logging
 
 
 # Increasing recursion limit for loads with a lot of plants
 sys.setrecursionlimit(10**6)
+
+
+
+
 
 
     
@@ -143,7 +147,7 @@ class UnitCommitmentProblem:
         List of dictionaries with new proposals 
         None if the proposal does not satisfy the constraints
         """
-        print("currentprop",CurrentProposal)
+        
         NewProposal=CurrentProposal.copy() #Copy to prevent pass by reference
         MO=MeritOrder[i] #Current proposal plant
         
@@ -151,19 +155,15 @@ class UnitCommitmentProblem:
         if LoadNeeded<=0 or i<0: 
             NextIndex=len(CurrentProposal)
             NextLoad=MeritOrder[NextIndex]["pmin"]-LoadNeeded
+            
             # Check new load feasibility
             if NextLoad<MeritOrder[NextIndex]["pmin"]:
-                
-                print("error feas")
-                print("backtrack:",NextLoad,MeritOrder[NextIndex]["pmin"])
-                print(NewProposal)
                 return [None]
             else:
                 #Limit proposed load to pmax
                 if NextLoad>MeritOrder[NextIndex]["pmax"]:
                     NextLoad=MeritOrder[NextIndex]["pmax"]
                 NewProposal.append(NextLoad)
-                print("In here end ok")
                 cost=0
                 #Calculate cost of proposed solution
                 for np,mo in zip(NewProposal,MeritOrder):
@@ -172,7 +172,6 @@ class UnitCommitmentProblem:
             
         #Gasfired
         if MO["type"]=="gasfired":
-            print("in here gas")
             # Gasfired plant has enough additional power above pmin
             if (NewProposal[i]-MO["pmin"])>=LoadNeeded:
                 NewProposal[i]=NewProposal[i]-LoadNeeded
@@ -197,7 +196,6 @@ class UnitCommitmentProblem:
         
         #Windturbine        
         elif MO["type"]=="windturbine":
-            print("tubine")
             LoadNeeded-=NewProposal[i]
             NewProposal[i]=0
             
@@ -231,7 +229,6 @@ class UnitCommitmentProblem:
                         else:
                             LoadNeeded+=(MeritOrder[k]["pmax"]-NewProposal[k])
                             NewProposal[k]=MeritOrder[k]["pmax"]
-            print("Windturbn",NewProposal)
             return self._backtracking(MeritOrder,NewProposal,LoadNeeded,i-1)
         
         #Turbojet
@@ -271,7 +268,7 @@ class UnitCommitmentProblem:
         
         i=len(CurrentProposal)
         LoadLeft=load-sum(CurrentProposal)
-        print(CurrentProposal)
+        
         #Termination condition
         if LoadLeft==0:
             return {"solution":CurrentProposal,"cost":cost}
@@ -319,24 +316,19 @@ class UnitCommitmentProblem:
             else:
                 LoadNeeded=MeritOrder[i]["pmin"]-LoadLeft
                 BacktrackList=self._backtracking(MeritOrder,CurrentProposal,LoadNeeded,len(CurrentProposal)-1)
-                print("backtrackl",BacktrackList)
                 BacktrackProposals=[]
                 for bi in BacktrackList:
                     if bi!=None:
-                        print("In here")
                         bp=self._forwardtracking(MeritOrder,load,bi["solution"],bi["cost"])
                         if bp!=None:
                             BacktrackProposals.append(bp)
                             
                 #Also add 0 load to proposal list
                 CurrentProposal.append(0)
-                print("zero",CurrentProposal)
                 cost+=CurrentProposal[i]*MeritOrder[i]["cpm"]
                 ZeroLoadProposal=self._forwardtracking(MeritOrder,load,CurrentProposal,cost)
-                print(ZeroLoadProposal)
                 if ZeroLoadProposal!=None:
                     BacktrackProposals.append(ZeroLoadProposal)
-                print(BacktrackProposals)
                 SortedProposals = sorted(BacktrackProposals, key=lambda k: k['cost'])       
                 if len(SortedProposals)>0:
                     return SortedProposals[0]
@@ -347,18 +339,31 @@ class UnitCommitmentProblem:
            
 # Simple flask app with desired endpoint
 app = Flask(__name__)
+@app.errorhandler(500)
+def internal_server_error(e):
+    return "An internal server error occurred, We apologize for the inconvenience!", 500
 
+@app.errorhandler(404)
+def page_not_found(e):
+    return "Please make a request on /productionplan with the right json format", 404
 
 @app.route('/productionplan', methods=['POST'])
 def GEMChallenge():
     payload = request.get_json()
-    print("the payload is :",payload)
-    MOObj=MeritOrder(payload)
-    solver = UnitCommitmentProblem(MOObj)
-    solution = solver.solve()
-    print(solution)
+    if not payload:
+        abort(400)
+    try:
+        MOObj=MeritOrder(payload)
+    except:
+        abort(400)
+    try:
+        solver = UnitCommitmentProblem(MOObj)
+        solution = solver.solve()
+    except:
+        abort(500)
     return jsonify(solution)
 
 
 if __name__ == '__main__':
+    logging.basicConfig(filename='error.log',level=logging.DEBUG) #setting up logging
     app.run(port=8888, debug=False)   
