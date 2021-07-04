@@ -32,11 +32,11 @@ At first I wanted to solve the challenge using the classical optimization algori
 - Particle swarm optimization (With bounded particles)
 - ...
 
+### Forward pass
+
 Without the Pmin constraint for the gasfired plant the challenge is not difficult since we can simply follow the merit order.
 I chose to solve the problem by using a forward pass following the merit order and backward pass to account for Pmin constraints
 I define a Pmin constraint as a forward pass with loadleft< Pmin of the gasfired plant
-
-### Forward pass
 
 When this happens there are 2 options:
 
@@ -45,7 +45,7 @@ When this happens there are 2 options:
 
 ### Backward pass
 
-similarly for the backward pass we have 2 options when a gasfired (Pmin) constraint presents itself:
+Similarly for the backward pass we have 2 options when a gasfired (Pmin) constraint presents itself:
 
 - Assign P as 0 --> Deactivate the plant
 - Assign P as Pmin --> Take all excess power from the plant
