@@ -52,7 +52,7 @@ Similarly for the backward pass we have 2 options when a gasfired (Pmin) constra
 - Assign P as 0 --> Deactivate the plant
 - Assign P as Pmin --> Take all excess power from the plant
 
-When during the backward pass a windturbine is deactivate there might be an excess of energy due to the power drop.
+When during the backward pass a windturbine is deactivated there might be an excess of energy due to the power drop.
 This excess energy is redistributed using the merit order across the plants
 
 ## UNIT TEST
