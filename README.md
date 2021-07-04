@@ -7,7 +7,7 @@
 
 Hello! I am Olivier Algoet, a control & automation engineer with a passion for artificial intelligence, deep learning and smart control algorithms.
 <p style="text-align:center;">
-<img src="/Images/myself.jpeg" width="40%" >
+<img src="/Images/myself.jpeg" width="40%" style="filter: grayscale(100%);">
 </p>
 
 ## API LAUNCH
