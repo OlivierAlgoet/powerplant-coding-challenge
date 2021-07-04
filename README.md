@@ -10,13 +10,6 @@ Hello! I am Olivier Algoet, a control & automation engineer with a passion for a
 <img src="/Images/myself.jpeg" width="40%" >
 </p>
 
-### Freelancer
-
-I am a freelancer with my company Easai (www.easai.eu)
-<p style="text-align:center;">
-<img src="/Images/easai.png" width="70%" >
-</p>
-
 ## API LAUNCH
 
 I used a conda environment
